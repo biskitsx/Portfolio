@@ -12,7 +12,7 @@ function Step() {
             }}>
             <li className="step step-primary">
                 {/* Open the modal using ID.showModal() method */}
-                <button className="hover:scale-105 transition-all" onClick={() => window.my_modal_2.showModal()}>
+                <button className="hover:scale-105 transition-all" onClick={() => (window as any).my_modal_2.showModal()}>
                     <p>
                         School 🚌
                     </p>
@@ -31,7 +31,7 @@ function Step() {
                 </dialog>
             </li>
             <li className="step step-primary">
-                <button className="hover:scale-105 transition-all" onClick={() => window.my_modal_3.showModal()}>
+                <button className="hover:scale-105 transition-all" onClick={() => (window as any).my_modal_3.showModal()}>
                     <p>
                         University 🎓
                     </p>
