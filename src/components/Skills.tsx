@@ -53,7 +53,7 @@ function Skills() {
                         )
                     })}
                 </div>
-                <motion.p className='text-2xl font-bold'
+                <motion.p className='text-2xl font-bold md:mt-20'
                     initial={{ scale: 0.8, opacity: 0 }}
                     whileInView={{
                         scale: 1,
