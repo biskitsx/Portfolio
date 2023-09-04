@@ -42,6 +42,20 @@ export const projectDetail = [
         url: "https://github.com/biskitsx/Ecommerce"
     },
     {
+        title: "PromptPay QRCode Generator",
+        image: "/aftergen.png",
+        desc: "Web application and JavaScript library to generate QR Code payload for PromptPay. 🌈",
+        tools: ["NodeJS", "TypeScript", "Express", "QRCode"],
+        url: "https://github.com/biskitsx/PromptPay-QRCode-Generator"
+    },
+    {
+        title: "aws deploy golang",
+        image: "/aws.avif",
+        desc: "Learn to use Docker with multiple services, such as API (Go) and database, and deploy on Amazon Web Services (EC2). 🔥",
+        tools: ["docker", "golang", "deploy", "aws-ec2"],
+        url: "https://github.com/biskitsx/aws-deploy-golang"
+    },
+    {
         title: "Redis NodeJS",
         image: "/redis.png",
         desc: "A simple and straightforward implementation of a caching system in TypeScript using Redis.",

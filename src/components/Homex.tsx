@@ -23,7 +23,13 @@ function Homex() {
                         <Image src='/kit1.png' alt='my-pic' width={300} height={300} className='mask mask-hexagon-2 sm:mask-squircle shadow-lg border-gray-700 transition-all hover:rotate-2' />
                     </motion.div>
 
-                    <div className=' flex flex-col gap-4 text-center md:text-left md:w-140'>
+                    <motion.div className=' flex flex-col gap-4 text-center md:text-left md:w-140'
+                        initial={{ scale: 0.8, opacity: 0 }}
+                        whileInView={{
+                            scale: 1,
+                            opacity: 1,
+                            transition: { duration: 0.5 },
+                        }}>
                         <h1 className='text-4xl  font-bold md:text-5xl lg:text-7xl '>
                             <span className='text-3xl'>Hi there 👋🏻, I&apos;m a</span>
                             <span className='text-accent-focus '>
@@ -36,6 +42,8 @@ function Homex() {
                                             "ReactJS",
                                             "NextJS",
                                             "Web",
+                                            "Backend",
+                                            "FullStack"
                                         ],
                                         autoStart: true,
                                         loop: true
@@ -62,12 +70,21 @@ function Homex() {
                                 <FontAwesomeIcon icon={faLinkedin} className='hover:text-blue-600 hover:scale-110 ' />
                             </a>
                         </div>
-                    </div>
+                    </motion.div>
                     {/* <FontAwesomeIcon icon={faCircleDown} className=' md:hidden animate-bounce text-3xl' /> */}
                 </div>
-                <scroll.Link to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>
-                    <FontAwesomeIcon icon={faCircleDown} className=' md:block animate-bounce text-3xl pb-4 md:pb-0 ' />
-                </scroll.Link>
+                <motion.div
+                    initial={{ scale: 0.8, opacity: 0 }}
+                    whileInView={{
+                        scale: 1,
+                        opacity: 1,
+                        transition: { duration: 0.5 },
+                    }}>
+
+                    <scroll.Link to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>
+                        <FontAwesomeIcon icon={faCircleDown} className=' md:block animate-bounce text-3xl pb-4 md:pb-0 ' />
+                    </scroll.Link>
+                </motion.div>
 
             </div>
 
