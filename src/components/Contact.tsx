@@ -18,7 +18,7 @@ const contact = [
 
 function Contact() {
     return (
-        <div className=' w-full flex justify-center' id='contact'>
+        <div className=' w-full flex justify-center bg-base-200' id='contact'>
             <div className='w-11/12 px-5 py-10 lg:w-225 md:py-32 flex flex-col gap-10 '>
                 <div className='font-bold flex gap-3 flex-col'>
                     <motion.h1 className='text-secondary-focus uppercase'
