@@ -1,6 +1,6 @@
 import scroll from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase, faDownLong, faKeyboard, faPersonFalling } from '@fortawesome/free-solid-svg-icons'
 import { faCircleDown } from '@fortawesome/free-regular-svg-icons'
 import Image from 'next/image'
@@ -68,6 +68,9 @@ function Homex() {
                             </a>
                             <a href="https://www.linkedin.com/in/suphakit-songsuwong-99116b27a/" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin} className='hover:text-blue-600 hover:scale-110 ' />
+                            </a>
+                            <a href="https://medium.com/@kitsugarr" target="_blank" rel="noopener noreferrer" >
+                                <FontAwesomeIcon icon={faMedium} className='hover:text-black hover:scale-110 ' />
                             </a>
                         </div>
                     </motion.div>
