@@ -55,19 +55,19 @@ export const projectDetail = [
         tools: ["docker", "golang", "deploy", "aws-ec2"],
         url: "https://github.com/biskitsx/aws-deploy-golang"
     },
-    {
-        title: "Redis NodeJS",
-        image: "/redis.png",
-        desc: "A simple and straightforward implementation of a caching system in TypeScript using Redis.",
-        tools: ["Redis", "NodeJS", "TypeScript", "Express"],
-        url: "https://github.com/biskitsx/Ecommerce"
-    },
-    {
-        title: "NestJS",
-        image: "/nest.jpeg",
-        desc: "The integration of Prisma and Nest.js to build a powerful API. Prisma is an ORM (Object-Relational Mapping) tool that simplifies database access and management. 🦁",
-        tools: ["Redis", "NodeJS", "TypeScript", "Express"],
-        url: "https://github.com/biskitsx/nest-js"
-    },
+    // {
+    //     title: "Redis NodeJS",
+    //     image: "/redis.png",
+    //     desc: "A simple and straightforward implementation of a caching system in TypeScript using Redis.",
+    //     tools: ["Redis", "NodeJS", "TypeScript", "Express"],
+    //     url: "https://github.com/biskitsx/Ecommerce"
+    // },
+    // {
+    //     title: "NestJS",
+    //     image: "/nest.jpeg",
+    //     desc: "The integration of Prisma and Nest.js to build a powerful API. Prisma is an ORM (Object-Relational Mapping) tool that simplifies database access and management. 🦁",
+    //     tools: ["Redis", "NodeJS", "TypeScript", "Express"],
+    //     url: "https://github.com/biskitsx/nest-js"
+    // },
 
 ]
