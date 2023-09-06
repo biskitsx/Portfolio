@@ -19,8 +19,8 @@ function Navbar() {
                 <scroll.Link to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Skills</scroll.Link>
                 <scroll.Link to="about" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>About</scroll.Link>
                 <scroll.Link to="project" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Project</scroll.Link>
+                <scroll.Link to="blog" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Blog</scroll.Link>
                 <scroll.Link to="contact" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Contact</scroll.Link>
-                {/* <scroll.Link to="home" spy={true} smooth={true} offset={50} duration={500} className='cursor-pointer hover:scale-105 '><FontAwesomeIcon icon={faHouse} /></scroll.Link> */}
                 <Swap />
 
             </nav>
@@ -33,6 +33,7 @@ function Navbar() {
                         <scroll.Link to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Skills</scroll.Link>
                         <scroll.Link to="about" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>About</scroll.Link>
                         <scroll.Link to="project" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Project</scroll.Link>
+                        <scroll.Link to="blog" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Blog</scroll.Link>
                         <scroll.Link to="contact" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Contact</scroll.Link>
                     </ul>
                 </div>
