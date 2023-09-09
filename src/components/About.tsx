@@ -19,7 +19,7 @@ function About() {
                             opacity: 1,
                             transition: { duration: 0.5 },
                         }}>
-                        <Image src="/kit2.jpeg" alt='connected' width={1000} height={1000} className='overflow-hidden shadow-md rounded-2xl w-80 mx-auto transition-all hover:rotate-3' />
+                        <Image src="/baac.jpg" alt='connected' width={1000} height={1000} className='overflow-hidden shadow-md rounded-2xl w-80 mx-auto transition-all hover:rotate-3' />
                     </motion.div>
 
                     <div className='flex flex-col gap-4 font-bold'>
