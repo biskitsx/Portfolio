@@ -60,7 +60,7 @@ function Contact() {
                         </div>
                         <div className='flex flex-col'>
                             <h4 className='font-bold'>Resume</h4>
-                            <a href='/Suphakit-Resume.pdf' className='font-medium hover:text-secondary-focus cursor-pointer'>Click to open</a>
+                            <a href='/resume.pdf' className='font-medium hover:text-secondary-focus cursor-pointer'>Click to open</a>
                         </div>
                     </div>
                 </div>
