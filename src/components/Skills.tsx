@@ -30,7 +30,7 @@ function Skills() {
                             opacity: 1,
                             transition: { duration: 0.8 },
                         }}>
-                        Programming languages skills 🧑🏻‍💻
+                        Hard skills 🧑🏻‍💻
                     </motion.p>
                 </div>
 
@@ -64,7 +64,7 @@ function Skills() {
                 </motion.p>
                 <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
                     {softSkills.map((item, index) => {
-                        return <div className='bg-base-100 p-2 rounded-md shadow-md font-medium flex justify-center items-center' key={index}>
+                        return <div className='bg-base-100 p-2 rounded-md shadow-md font-normal flex justify-center items-center' key={index}>
                             <motion.p
                                 className='text-center'
                                 initial={{ scale: 0.1, opacity: 1 }}

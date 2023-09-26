@@ -11,6 +11,8 @@ export const logo = [
     { title: 'mysql', src: 'mysql-colored.svg', link: "https://www.mysql.com/" },
     { title: 'postgresql', src: 'postgresql-colored.svg', link: "https://www.postgresql.org/" },
     { title: 'go', src: 'go-colored.svg', link: "https://go.dev" },
+    { title: 'docker', src: 'docker-colored.svg', link: "https://www.docker.com/" },
+    { title: 'aws', src: 'aws-colored.svg', link: "https://aws.amazon.com/" },
 ]
 export const softSkills = [
     "Time management ⏰", "Growth Mindset 💭", "Decision Making 🍰", "Communication 🗣️"
