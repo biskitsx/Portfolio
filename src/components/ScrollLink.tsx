@@ -1,10 +1,6 @@
 import React from 'react';
 import scroll from 'react-scroll';
 
-interface LayoutProps {
-    children: React.ReactNode;
-}
-
 interface ScrollLinkDTO {
     to: string
     spy: boolean
@@ -12,7 +8,7 @@ interface ScrollLinkDTO {
     offset: number;
     duration: number;
     className: string;
-    children: string
+    children: React.ReactNode
 }
 
 
