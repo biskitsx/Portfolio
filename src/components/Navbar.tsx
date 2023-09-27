@@ -4,6 +4,7 @@ import scroll from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faBolt, faCube, faHippo, faBars } from '@fortawesome/free-solid-svg-icons'
 import Swap from './Swap'
+import ScrollLink from './ScrollLink'
 
 function Navbar() {
     return (
@@ -15,12 +16,12 @@ function Navbar() {
             </Link>
 
             <nav className='hidden sm:flex gap-4 font-semibold'>
-                <scroll.Link to="home" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Home</scroll.Link>
-                <scroll.Link to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Skills</scroll.Link>
-                <scroll.Link to="about" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>About</scroll.Link>
-                <scroll.Link to="project" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Project</scroll.Link>
-                <scroll.Link to="blog" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Blog</scroll.Link>
-                <scroll.Link to="contact" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Contact</scroll.Link>
+                <ScrollLink to="home" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Home</ScrollLink>
+                <ScrollLink to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Skills</ScrollLink>
+                <ScrollLink to="about" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>About</ScrollLink>
+                <ScrollLink to="project" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Project</ScrollLink>
+                <ScrollLink to="blog" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Blog</ScrollLink>
+                <ScrollLink to="contact" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>Contact</ScrollLink>
                 <Swap />
 
             </nav>
@@ -29,12 +30,12 @@ function Navbar() {
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="text-xl"><FontAwesomeIcon icon={faBars} className='cursor-pointer' /></label>
                     <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                        <scroll.Link to="home" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer p-1 hover:bg-base-200 rounded-md'>Home</scroll.Link>
-                        <scroll.Link to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Skills</scroll.Link>
-                        <scroll.Link to="about" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>About</scroll.Link>
-                        <scroll.Link to="project" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Project</scroll.Link>
-                        <scroll.Link to="blog" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Blog</scroll.Link>
-                        <scroll.Link to="contact" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Contact</scroll.Link>
+                        <ScrollLink to="home" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer p-1 hover:bg-base-200 rounded-md'>Home</ScrollLink>
+                        <ScrollLink to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Skills</ScrollLink>
+                        <ScrollLink to="about" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>About</ScrollLink>
+                        <ScrollLink to="project" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Project</ScrollLink>
+                        <ScrollLink to="blog" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Blog</ScrollLink>
+                        <ScrollLink to="contact" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:bg-base-200 rounded-md p-1'>Contact</ScrollLink>
                     </ul>
                 </div>
             </nav>

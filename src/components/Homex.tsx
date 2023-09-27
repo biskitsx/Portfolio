@@ -1,4 +1,3 @@
-import { Link as ScrollLink } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase, faDownLong, faKeyboard, faPersonFalling } from '@fortawesome/free-solid-svg-icons'
@@ -7,6 +6,7 @@ import Image from 'next/image'
 import Navbar from './Navbar'
 import TypewriterComponent from 'typewriter-effect'
 import { motion } from 'framer-motion'
+import ScrollLink from './ScrollLink'
 
 function Homex() {
     return (
@@ -83,11 +83,9 @@ function Homex() {
                         opacity: 1,
                         transition: { duration: 0.5 },
                     }}>
-                    {/* <>
-                        <ScrollLink to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>
-                            <FontAwesomeIcon icon={faCircleDown} className=' md:block animate-bounce text-3xl pb-4 md:pb-0 ' />
-                        </ScrollLink>
-                    </> */}
+                    <ScrollLink to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>
+                        <FontAwesomeIcon icon={faCircleDown} className=' md:block animate-bounce text-3xl pb-4 md:pb-0 ' />
+                    </ScrollLink>
                 </motion.div>
 
             </div>
