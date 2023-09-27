@@ -12,13 +12,13 @@ interface ScrollLinkDTO {
     offset: number;
     duration: number;
     className: string;
-    children: LayoutProps
+    children: string
 }
 
 
 const ScrollLink = ({ to, children, ...props }: ScrollLinkDTO) => {
     const Link = scroll.Link;
-    return <Link to={to} {...props} />;
+    return <Link to={to} {...props}>{children}</Link>
 };
 
 export default ScrollLink;
