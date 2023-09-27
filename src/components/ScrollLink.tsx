@@ -1,7 +1,11 @@
 import React from 'react';
 import scroll from 'react-scroll';
 
-const ScrollLink = ({ to, ...props }) => {
+interface ScrollLinkDTO {
+    to: string
+    props: [x: string]
+}
+const ScrollLink = ({ to, ...props }: ScrollLinkDTO) => {
     const Link = scroll.Link;
     return <Link to={to} {...props} />;
 };
