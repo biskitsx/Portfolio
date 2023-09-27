@@ -83,10 +83,11 @@ function Homex() {
                         opacity: 1,
                         transition: { duration: 0.5 },
                     }}>
-
-                    <scroll.Link to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>
-                        <FontAwesomeIcon icon={faCircleDown} className=' md:block animate-bounce text-3xl pb-4 md:pb-0 ' />
-                    </scroll.Link>
+                    <>
+                        <scroll.Link to="skills" spy={true} smooth={true} offset={-73} duration={500} className='cursor-pointer hover:scale-105'>
+                            <FontAwesomeIcon icon={faCircleDown} className=' md:block animate-bounce text-3xl pb-4 md:pb-0 ' />
+                        </scroll.Link>
+                    </>
                 </motion.div>
 
             </div>
