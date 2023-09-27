@@ -3,7 +3,7 @@ import scroll from 'react-scroll';
 
 interface ScrollLinkDTO {
     to: string
-    props: [x: string]
+    props: any
 }
 const ScrollLink = ({ to, ...props }: ScrollLinkDTO) => {
     const Link = scroll.Link;
