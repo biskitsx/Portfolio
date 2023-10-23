@@ -10,8 +10,8 @@ import { projectDetail } from '@/data/project';
 function Project() {
     return (
         <div className=' w-full flex justify-center bg-base-200' id='project'>
-            <div className='w-11/12 px-5 py-10 md:py-32 lg:w-225 flex flex-col gap-8'>
-                <div className='font-bold flex gap-3 flex-col'>
+            <div className='w-11/12 px-5 py-10 md:py-32 lg:w-300 flex flex-col gap-8'>
+                <div className='font-bold flex gap-3 flex-col relative'>
                     <motion.h1 className='text-secondary-focus uppercase'
                         initial={{ scale: 0.8, opacity: 0 }}
                         whileInView={{
@@ -32,7 +32,7 @@ function Project() {
                     </motion.p>
                 </div>
 
-                <div className='grid md:grid-cols-2 gap-6'>
+                <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
                     {projectDetail.map((project, index) =>
                         <SubProject props={project} key={index} />
                     )}
