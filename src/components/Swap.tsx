@@ -4,7 +4,7 @@ function Swap() {
     const [theme, setTheme] = useState('agoda')
     const [isThemeCheck, setIsThemeCheck] = useState(false)
     const toggleTheme = (e: any) => {
-        setTheme(e.target.checked === true ? 'agoda' : 'mytheme');
+        setTheme(e.target.checked === true ? 'mytheme' : 'agoda');
         setIsThemeCheck(current => !current)
     };
     useEffect(() => {
