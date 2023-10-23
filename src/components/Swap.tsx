@@ -1,10 +1,10 @@
 import React, { SyntheticEvent } from 'react'
 import { useEffect, useState } from 'react'
 function Swap() {
-    const [theme, setTheme] = useState('emerald')
+    const [theme, setTheme] = useState('agoda')
     const [isThemeCheck, setIsThemeCheck] = useState(false)
     const toggleTheme = (e: any) => {
-        setTheme(e.target.checked === true ? 'mytheme' : 'emerald');
+        setTheme(e.target.checked === true ? 'agoda' : 'mytheme');
         setIsThemeCheck(current => !current)
     };
     useEffect(() => {
