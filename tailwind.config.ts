@@ -13,43 +13,20 @@ module.exports = {
                 140: "560px",
                 160: "640px",
                 180: "720px",
-                225: "900px"
+                225: "900px",
+                270: "1080px",
+                300: "1200px",
+                350: "1400px",
+            },
+            animation: {
+                'spin-slow': 'spin 3s linear infinite',
             }
         },
     },
     daisyui: {
         themes: [
-
-            // Include the emerald theme in the DaisyUI config
-            // "light",
-            // "dark",
-            // "cupcake",
-            // "bumblebee",
             "emerald",
-            // "corporate",
-            // "synthwave",
-            // "retro",
-            // "cyberpunk",
-            // "valentine",
-            // "halloween",
-            // "garden",
-            // "forest",
-            // "aqua",
-            // "lofi",
-            // "pastel",
-            // "fantasy",
-            // "wireframe",
-            // "black",
-            // "luxury",
             "dracula",
-            // "cmyk",
-            // "autumn",
-            // "business",
-            // "acid",
-            // "lemonade",
-            // "night",
-            // "coffee",
-            // "winter",
             {
                 mytheme1: {
 
@@ -70,6 +47,8 @@ module.exports = {
                     "warning": "#d3700d",
 
                     "error": "#f2637b",
+
+                    // "base-100": "#fff",
                 },
                 mytheme: {
 
@@ -91,6 +70,35 @@ module.exports = {
                     "warning": "#f1fa89",
 
                     "error": "#ff5757",
+
+                },
+                agoda: {
+
+
+                    "primary": "#10B04A",
+
+                    "secondary": "#488AF7",
+
+                    "accent": "#FE2938",
+
+                    "neutral": "#333c4d",
+
+                    "base-100": "#ffffff",
+                    // "base-200": "#DFCCFB",
+                    // "base-200": "#FBF0B2",
+                    // "base-200": "#CEDEBD",
+                    // "base-200": "#fdb813",
+                    "base-200": "#FFCD4B",
+                    // "base-200": "#B01E8D",
+                    "base-300": "#D8D9DA",
+
+                    "info": "#3abff8",
+
+                    "success": "#36d399",
+
+                    "warning": "#fbbd23",
+
+                    "error": "#f87272",
                 },
             },
         ],
