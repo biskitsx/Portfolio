@@ -17,7 +17,7 @@ function Footer() {
                     <a href="https://github.com/biskitsx" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} className=' hover:scale-110 ' />
                     </a>
-                    <a href="https://www.linkedin.com/in/suphakit-songsuwong-99116b27a/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/suphakit-s/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} className=' hover:scale-110 ' />
                     </a>
                 </div>
