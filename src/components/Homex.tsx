@@ -23,7 +23,7 @@ function Homex() {
                         <Image src='/kit1.png' alt='my-pic' width={300} height={300} className='mask mask-hexagon-2 sm:mask-squircle shadow-lg border-gray-700 transition-all hover:rotate-2' />
                     </motion.div>
 
-                    <motion.div className=' flex flex-col gap-4 text-center md:text-left md:w-140'
+                    <motion.div className=' flex flex-col gap-4 text-center md:text-left md:w-140 relative'
                         initial={{ scale: 0.8, opacity: 0 }}
                         whileInView={{
                             scale: 1,
@@ -32,7 +32,7 @@ function Homex() {
                         }}>
                         <h1 className='text-4xl  font-bold md:text-5xl lg:text-7xl '>
                             <span className='text-3xl'>Hi there 👋🏻, I&apos;m a</span>
-                            <span className='text-accent-focus '>
+                            <span className='text-accent-focus'>
                                 <TypewriterComponent
                                     options={{
                                         strings: [
@@ -51,10 +51,13 @@ function Homex() {
                                 />
 
                             </span>
-                            Developer
+                            <div className='relative'>
+                                Developer
+                                {/* <Image alt='sticker' src="/sticker2.png" width={1000} height={1000} className='w-32 absolute -top-12 right-4 animate-bounce' /> */}
+                            </div>
                         </h1>
 
-                        <p className='text-lg font-normal '>Hello, I&apos;m Kit Suphakit. I&apos;m interested in <span className='text-secondary font-semibold'>Back-End Developer</span>  base in Thailand <FontAwesomeIcon icon={faPersonFalling} className='text-primary' /></p>
+                        <p className='text-lg font-normal '>Hello, I&apos;m Kit Suphakit. I&apos;m interested in <span className='text-secondary font-semibold  '>Back-End Developer</span>  base in Thailand <FontAwesomeIcon icon={faPersonFalling} className='text-primary' /></p>
 
                         <div className='flex gap-5 text-4xl justify-center transition-transform'>
                             <a href="https://www.facebook.com/kittspk/" target="_blank" rel="noopener noreferrer">
