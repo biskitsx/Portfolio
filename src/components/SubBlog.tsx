@@ -10,7 +10,7 @@ interface BlogProps {
 
 function SubBlog({ title, image, link, description }: BlogProps) {
     return (
-        <div className="card card-compact md:card-side bg-base-100 shadow-xl relative overflow-hidden">
+        <div className="card card-compact md:card-side bg-base-100 shadow-xl relative overflow-hidden rounded-md">
             <figure className=''>
                 <Image src={image} alt={image} width={200} height={200} className='w-full md:w-60 h-full lg:w-72' />
             </figure>

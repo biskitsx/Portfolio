@@ -1,7 +1,21 @@
 export const projectDetail = [
     {
+        title: "kittotype",
+        image: "/kittotype.png",
+        desc: "A minimalistic typing test web application that allows users to see live errors, WPM, and accuracy displays",
+        tools: ["NextJS", "TailwindCSS", "TypeScript"],
+        url: "https://kittotype.vercel.app"
+    },
+    {
+        title: "Mood & Sound",
+        image: "/mood.png",
+        desc: "This Web application will display various sounds for users to choose from based on their mood.",
+        tools: ["NextJS", "TailwindCSS", "TypeScript"],
+        url: "https://mood-sound.vercel.app"
+    },
+    {
         title: "ZideQuest",
-        image: "/noname.png",
+        image: "/zq.jpg",
         desc: "A Geographic Information Systems application that shows events happening around campus using Google Maps API 🌍",
         tools: ["React Native", "NodeJS", "MongoDB", "Express"],
         url: "https://github.com/ZideQuest/ZideQuest-Backend"
@@ -35,12 +49,19 @@ export const projectDetail = [
         url: "https://github.com/biskitsx/social-appx"
     },
     {
-        title: "Ecommerce App",
-        image: "/ecommerce.png",
-        desc: "This GitHub repository showcases a full-fledged e-commerce application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. 🛒",
-        tools: ["NodeJS", "MongoDB", "Express"],
-        url: "https://github.com/biskitsx/Ecommerce"
+        title: "Leave Work",
+        image: "/home.png",
+        desc: "Web app for tracking user leave data, including leave date, type, notes, and entry date. Authenticate users to ensure data security.",
+        tools: ["Golang", "Fiber", "PostgreSQL", "NextJS"],
+        url: "https://github.com/biskitsx/LeaveWork-Management-App"
     },
+    // {
+    //     title: "Ecommerce App",
+    //     image: "/ecommerce.png",
+    //     desc: "This GitHub repository showcases a full-fledged e-commerce application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. 🛒",
+    //     tools: ["NodeJS", "MongoDB", "Express"],
+    //     url: "https://github.com/biskitsx/Ecommerce"
+    // },
     {
         title: "PromptPay QRCode Generator",
         image: "/aftergen.png",

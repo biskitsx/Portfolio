@@ -12,14 +12,21 @@ function About() {
             <div className='w-11/12 px-5 py-10 md:py-32 lg:w-225 flex flex-col gap-10 '>
                 <div className='grid grid-cols-1  gap-10'>
                     {/* <div className='grid grid-cols-1 md:grid-cols-2 gap-10'> */}
-                    <motion.div className='text-secondary-focus'
+                    <motion.div className='text-secondary-focus flex flex-col items-center'
                         initial={{ scale: 0.8, opacity: 0 }}
                         whileInView={{
                             scale: 1,
                             opacity: 1,
                             transition: { duration: 0.5 },
                         }}>
-                        <Image src="/baac.JPG" alt='connected' width={1000} height={1000} className='overflow-hidden shadow-md rounded-2xl w-80 mx-auto transition-all hover:rotate-3' />
+
+                        {/* <Image src="/baac.JPG" alt='connected' width={1000} height={1000} className='overflow-hidden shadow-md rounded-2xl w-80 mx-auto transition-all hover:rotate-3' />
+                        <Image alt='sticker' src="/sticker1.png" width={1000} height={1000} className='w-28 absolute left-1/4 -bottom-10 right-0 bg-secondary rounded-full shadow-lg animate-spin-slow' /> */}
+                        <div className='relative'>
+                            <Image src="/baac.JPG" alt='connected' width={1000} height={1000} className='overflow-hidden shadow-md rounded-md w-80 mx-auto transition-all hover:rotate-3' />
+                            <Image alt='sticker' src="/sticker1.png" width={1000} height={1000} className='w-20 -bottom-8 -left-8 sm:w-28 absolute sm:-bottom-12 sm:-left-12 bg-secondary rounded-full shadow-lg animate-spin-slow' />
+                        </div>
+
                     </motion.div>
 
                     <div className='flex flex-col gap-4 font-bold'>

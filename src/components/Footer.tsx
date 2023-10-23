@@ -4,7 +4,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className='w-full bg-zinc-900 px-10 py-10 md:py-32  grid place-items-center'>
+        <div className='w-full  px-10 py-10 md:py-32  grid place-items-center bg-zinc-800' >
             <div className='w-11/12 lg:w-225 flex items-center justify-between'>
                 <p className='text-white font-semibold uppercase tracking-wide '>&copy; Copyright {new Date().getFullYear()}</p>
                 <div className='flex gap-3 text-2xl justify-center transition-transform text-white'>
