@@ -29,7 +29,7 @@ function Blog() {
                         My blog on Medium  🌈
                         {/* <FontAwesomeIcon icon={faMedium} className='hover:text-black hover:scale-110 ' /> */}
                     </motion.p>
-                    <Image alt='sticker' src="/sticker2.png" width={1000} height={1000} className='absolute w-20 sm:w-40 -bottom-10 right-0 -rotate-12' />
+                    <Image alt='sticker' src="/sticker2.png" width={1000} height={1000} className='absolute w-24 -bottom-5 sm:w-40 -bottom-10 right-0 -rotate-12' />
                 </div>
                 <div className='flex flex-col gap-10'>
                     {blogDetail.map((blog, index) => {
