@@ -84,11 +84,11 @@ module.exports = {
                     "neutral": "#333c4d",
 
                     "base-100": "#ffffff",
-                    // "base-200": "#DFCCFB",
+                    "base-200": "#DFCCFB",
                     // "base-200": "#FBF0B2",
                     // "base-200": "#CEDEBD",
                     // "base-200": "#fdb813",
-                    "base-200": "#FFCD4B",
+                    // "base-200": "#FFCD4B",
                     // "base-200": "#B01E8D",
                     "base-300": "#D8D9DA",
 
