@@ -7,7 +7,7 @@ const contact = [
     {
         icon: faEnvelope,
         name: "Email",
-        val: "kitsugarr@gmail.com"
+        val: "suphakit.songs@gmail.com"
     },
     {
         icon: faPhone,
