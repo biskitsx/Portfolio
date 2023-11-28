@@ -28,7 +28,7 @@ function SubProject({ props }: SubProjectProps) {
 
     return (
         <div className="card  shadow-2xl bg-base-100 card-compact hover:scale-105 transition-all rounded-md" onClick={handleLinkClick}>
-            <figure className=''>
+            <figure className='shadow-sm'>
                 <Image src={props.image} alt="go" className=' h-56 w-full object-cover' width={1000} height={1000} />
             </figure>
             <div className="card-body">
