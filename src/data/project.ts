@@ -100,5 +100,12 @@ export const projectDetail = [
     //     tools: ["Redis", "NodeJS", "TypeScript", "Express"],
     //     github: "https://github.com/biskitsx/nest-js"
     // },
+    {
+        title: "gRPC-Go",
+        image: "https://www.koyeb.com/static/images/blog/what-is-grpc/what-is-grpc.jpg",
+        desc: "This repository provides a simple way to working with gRPC using Go. 🚀",
+        tools: ["Go", "TLS", "gRPC", "Express"],
+        github: "https://github.com/biskitsx/gRPC-Go"
+    },
 
 ]
