@@ -24,6 +24,7 @@ function About() {
                         <Image alt='sticker' src="/sticker1.png" width={1000} height={1000} className='w-28 absolute left-1/4 -bottom-10 right-0 bg-secondary rounded-full shadow-lg animate-spin-slow' /> */}
                         <div className='relative'>
                             <Image src="/baac.JPG" alt='connected' width={1000} height={1000} className='overflow-hidden shadow-md rounded-md w-80 mx-auto transition-all hover:rotate-3' />
+                            {/* <Image src="/z.JPG" alt='connected' width={3000} height={1000} className='overflow-hidden shadow-md rounded-md mx-auto transition-all hover:rotate-3' /> */}
                             <Image alt='sticker' src="/sticker1.png" width={1000} height={1000} className='w-20 -bottom-8 -left-8 sm:w-28 absolute sm:-bottom-12 sm:-left-12 bg-secondary rounded-full shadow-lg animate-spin-slow' />
                         </div>
 
