@@ -28,7 +28,7 @@ export const projectDetail = [
         image: "/zq.jpg",
         desc: "A Geographic Information Systems application that shows events happening around campus using Google Maps API 🌍",
         tools: ["React Native", "NodeJS", "MongoDB", "Express"],
-        github: "https://github.com/ZideQuest/ZideQuest-Backend"
+        github: "https://github.com/ZideQuest"
     },
     {
         title: "Grocery",
