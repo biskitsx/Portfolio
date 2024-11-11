@@ -10,8 +10,8 @@ import { faPersonFalling } from "@fortawesome/free-solid-svg-icons";
 import { faCircleDown } from "@fortawesome/free-regular-svg-icons";
 import Image from "next/image";
 import TypewriterComponent from "typewriter-effect";
-import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import { MotionFaded } from "./Motion/MotionFaded";
 
 function Homex() {
   return (
@@ -21,33 +21,16 @@ function Homex() {
     >
       <div className="w-11/12 font-semibold flex flex-col justify-center items-center">
         <div className="flex flex-col items-center gap-8 py-10 md:flex-row-reverse lg:w-225 md:justify-between">
-          <motion.div
-            className="text-secondary-focus"
-            initial={{ scale: 0.8, opacity: 0 }}
-            whileInView={{
-              scale: 1,
-              opacity: 1,
-              transition: { duration: 0.5 },
-            }}
-          >
+          <MotionFaded className="text-secondary-focus">
             <Image
-              src="/kit1.png"
+              src="/birthday.JPG"
               alt="my-pic"
               width={300}
               height={300}
               className="mask mask-hexagon-2 sm:mask-squircle shadow-lg border-gray-700 transition-all hover:rotate-2"
             />
-          </motion.div>
-
-          <motion.div
-            className=" flex flex-col gap-4 text-center md:text-left md:w-140 relative"
-            initial={{ scale: 0.8, opacity: 0 }}
-            whileInView={{
-              scale: 1,
-              opacity: 1,
-              transition: { duration: 0.5 },
-            }}
-          >
+          </MotionFaded>
+          <MotionFaded className="flex flex-col gap-4 text-center md:text-left md:w-140 relative">
             <h1 className="text-4xl  font-bold md:text-5xl lg:text-7xl ">
               <span className="text-3xl">Hi there 👋🏻, I&apos;m a</span>
               <span className="text-accent-focus">
@@ -138,17 +121,9 @@ function Homex() {
                 />
               </a>
             </div>
-          </motion.div>
-          {/* <FontAwesomeIcon icon={faCircleDown} className=' md:hidden animate-bounce text-3xl' /> */}
+          </MotionFaded>
         </div>
-        <motion.div
-          initial={{ scale: 0.8, opacity: 0 }}
-          whileInView={{
-            scale: 1,
-            opacity: 1,
-            transition: { duration: 0.5 },
-          }}
-        >
+        <MotionFaded>
           <Link
             to="skills"
             spy={true}
@@ -162,7 +137,7 @@ function Homex() {
               className=" md:block animate-bounce text-3xl pb-4 md:pb-0 "
             />
           </Link>
-        </motion.div>
+        </MotionFaded>
       </div>
     </div>
   );

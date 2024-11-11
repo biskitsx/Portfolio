@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { MotionFaded } from "./Motion/MotionFaded";
 
 function Step() {
   return (
@@ -64,7 +65,7 @@ function Step() {
           className="hover:scale-105 transition-all"
           onClick={() => (window as any).my_modal_4.showModal()}
         >
-          <p>Internship </p>
+          <p>Internship 🦖</p>
           <p className="font-semibold text-primary-focus">
             Appsynth Asia Co., Ltd
           </p>
