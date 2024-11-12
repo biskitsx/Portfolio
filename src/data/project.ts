@@ -1,4 +1,14 @@
-export const projectDetail = [
+import { ProjectProps } from "@/components/SubProject";
+
+export const projects: ProjectProps[] = [
+  {
+    title: "Pointhub",
+    image: "https://img2.pic.in.th/pic/Screenshot-2567-10-31-at-17.28.27.png",
+    desc: 'An Engagement platform "Pointhub" that that engages staff in company activities through incentives, enabling them to redeem personalized items and track their redemptions.',
+    tools: ["NextJS", "TailwindCSS", "Golang", "S3", "OneSignal", "Mailgun"],
+    // url: "https://watcherr.vercel.app",
+    // github: "https://github.com/biskitsx/watcherr",
+  },
   {
     title: "Watcher",
     image: "https://img2.pic.in.th/pic/image103079903e1dd0e3.png",
@@ -53,33 +63,19 @@ export const projectDetail = [
     github: "https://github.com/biskitsx/GoAPI-WebApp",
   },
   {
-    title: "Real time web chat",
-    image: "/chat.png",
-    desc: "A Real-time chat application using React with TypeScript on the frontend and Express with TypeScript and Socket.IO on the backend.💬",
-    tools: ["ReactJS", "MongoDB", "Express"],
-    github: "https://github.com/biskitsx/RealTime-Chat-App",
-  },
-  {
-    title: "Social App",
-    image: "/social.png",
-    desc: "This repository showcases the development of a simple social application using the MERN stack",
-    tools: ["NodeJS", "MongoDB", "Express"],
-    github: "https://github.com/biskitsx/social-appx",
-  },
-  {
     title: "Leave Work",
     image: "/home.png",
     desc: "Web app for tracking user leave data, including leave date, type, notes, and entry date. Authenticate users to ensure data security.",
     tools: ["Golang", "Fiber", "PostgreSQL", "NextJS"],
     github: "https://github.com/biskitsx/LeaveWork-Management-App",
   },
-  // {
-  //     title: "Ecommerce App",
-  //     image: "/ecommerce.png",
-  //     desc: "This GitHub repository showcases a full-fledged e-commerce application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. 🛒",
-  //     tools: ["NodeJS", "MongoDB", "Express"],
-  //     github: "https://github.com/biskitsx/Ecommerce"
-  // },
+  {
+    title: "Real time web chat",
+    image: "/chat.png",
+    desc: "A Real-time chat application using React with TypeScript on the frontend and Express with TypeScript and Socket.IO on the backend.💬",
+    tools: ["ReactJS", "MongoDB", "Express"],
+    github: "https://github.com/biskitsx/RealTime-Chat-App",
+  },
   {
     title: "PromptPay QRCode Generator",
     image: "/aftergen.png",
@@ -88,12 +84,26 @@ export const projectDetail = [
     github: "https://github.com/biskitsx/PromptPay-QRCode-Generator",
   },
   {
-    title: "aws deploy golang",
-    image: "/aws.avif",
-    desc: "Learn to use Docker with multiple services, such as API (Go) and database, and deploy on Amazon Web Services (EC2). 🔥",
-    tools: ["docker", "golang", "deploy", "aws-ec2"],
-    github: "https://github.com/biskitsx/aws-deploy-golang",
+    title: "Social App",
+    image: "/social.png",
+    desc: "This repository showcases the development of a simple social application using the MERN stack",
+    tools: ["NodeJS", "MongoDB", "Express"],
+    github: "https://github.com/biskitsx/social-appx",
   },
+  // {
+  //   title: "Ecommerce App",
+  //   image: "/ecommerce.png",
+  //   desc: "This GitHub repository showcases a full-fledged e-commerce application developed using the MERN (MongoDB, Express.js, React, Node.js) stack. 🛒",
+  //   tools: ["NodeJS", "MongoDB", "Express"],
+  //   github: "https://github.com/biskitsx/Ecommerce",
+  // },
+  // {
+  //   title: "aws deploy golang",
+  //   image: "/aws.avif",
+  //   desc: "Learn to use Docker with multiple services, such as API (Go) and database, and deploy on Amazon Web Services (EC2). 🔥",
+  //   tools: ["docker", "golang", "deploy", "aws-ec2"],
+  //   github: "https://github.com/biskitsx/aws-deploy-golang",
+  // },
   // {
   //     title: "Redis NodeJS",
   //     image: "/redis.png",
@@ -108,12 +118,12 @@ export const projectDetail = [
   //     tools: ["Redis", "NodeJS", "TypeScript", "Express"],
   //     github: "https://github.com/biskitsx/nest-js"
   // },
-  {
-    title: "gRPC-Go",
-    image:
-      "https://www.koyeb.com/static/images/blog/what-is-grpc/what-is-grpc.jpg",
-    desc: "This repository provides a simple way to working with gRPC using Go. 🚀",
-    tools: ["Go", "TLS", "gRPC", "Express"],
-    github: "https://github.com/biskitsx/gRPC-Go",
-  },
+  // {
+  //   title: "gRPC-Go",
+  //   image:
+  //     "https://www.koyeb.com/static/images/blog/what-is-grpc/what-is-grpc.jpg",
+  //   desc: "This repository provides a simple way to working with gRPC using Go. 🚀",
+  //   tools: ["Go", "TLS", "gRPC", "Express"],
+  //   github: "https://github.com/biskitsx/gRPC-Go",
+  // },
 ];

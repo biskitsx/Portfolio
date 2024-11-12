@@ -8,10 +8,10 @@ enum Theme {
 }
 function Swap() {
   const [theme, setTheme] = useState<Theme>(Theme.emerald);
-  const [isThemeCheck, setIsThemeCheck] = useState(false);
+  // const [isThemeCheck, setIsThemeCheck] = useState(false);
   const toggleTheme = (e: any) => {
-    setTheme(e.target.checked === true ? Theme.emerald : Theme.mytheme);
-    setIsThemeCheck((current) => !current);
+    setTheme(e.target.checked === true ? Theme.mytheme : Theme.emerald);
+    // setIsThemeCheck((current) => !current);
   };
   useEffect(() => {
     document.querySelector("html")?.setAttribute("data-theme", theme);
