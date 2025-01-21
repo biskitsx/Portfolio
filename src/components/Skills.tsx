@@ -1,22 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSquareCheck,
-  faCode,
-  faPalette,
-  faDatabase,
-  faCheck,
-  faCircle,
-  faCaretDown,
-} from "@fortawesome/free-solid-svg-icons";
-import {
-  faHtml5,
-  faNode,
-  faNodeJs,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
 const frontEnd = ["ReactJS", "NextJS", "Tailwind"];
 const backEnd = [
@@ -133,18 +117,40 @@ function Skills() {
             })}
           </div>
         </div>
-        <div className="flex justify-center items-center w-full ">
-          <div className="relative w-1/2 sm:w-60 md:w-72 ">
-            <Image
+        <div className="flex justify-center items-center w-full">
+          <motion.div
+            className="relative w-1/2 sm:w-60 md:w-72 space-y-4"
+            initial={{ scale: 0.1, opacity: 1 }}
+            whileInView={{
+              scale: 1,
+              opacity: 1,
+              transition: { duration: 0.5 },
+            }}
+          >
+            <div className="mockup-phone">
+              <div className="camera"></div>
+              <div className="display">
+                <video controls muted autoPlay>
+                  <source src="/video/presentation.mp4" type="video/mp4" />
+                </video>
+                {/* <div className="artboard artboard-demo phone-1">Hi.</div> */}
+              </div>
+            </div>
+            <div className="bg-white rounded-md p-1">
+              <h1 className="text-center font-medium">
+                Project Presentation During My Internship
+              </h1>
+            </div>
+            {/* <Image
               alt="sticker"
               src="/sticker4.png"
               width={5000}
               height={5000}
               className="w-full rounded-md"
-            />
+            /> */}
             {/* <p className='absolute top-6 right-0 animate-spin text-3xl'>🌚</p> */}
             {/* <p className='absolute top-4 left-2 animate-spin text-4xl'>🌎</p> */}
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
