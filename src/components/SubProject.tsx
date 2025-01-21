@@ -41,7 +41,7 @@ function SubProject({ props, className }: SubProjectProps) {
       <figure className="shadow-sm">
         <Image
           src={props.image}
-          alt="go"
+          alt={props.title}
           className="h-56 w-full object-cover"
           width={1000}
           height={1000}

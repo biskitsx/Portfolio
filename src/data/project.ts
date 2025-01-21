@@ -4,7 +4,7 @@ export const projects: ProjectProps[] = [
   {
     title: "Pointhub",
     image: "https://img2.pic.in.th/pic/Screenshot-2567-10-31-at-17.28.27.png",
-    desc: 'An Engagement platform "Pointhub" that that engages staff in company activities through incentives, enabling them to redeem personalized items and track their redemptions.',
+    desc: 'A loyalty platform "Pointhub" that that engages staff in company activities through incentives, enabling them to redeem personalized items and track their redemptions.',
     tools: ["NextJS", "TailwindCSS", "Golang", "S3", "OneSignal", "Mailgun"],
     // url: "https://watcherr.vercel.app",
     // github: "https://github.com/biskitsx/watcherr",
