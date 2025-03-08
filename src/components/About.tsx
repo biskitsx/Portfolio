@@ -68,7 +68,7 @@ function About() {
               {/* <p>When I first transferred, I had to work hard because I didn&apos;t have the same background as my friends. I started learning C and C++, which helped me learn about data structures and algorithms. Then, I discovered HTML, CSS, and JavaScript, which change my perspective and helped me understand how websites work.</p>
                             <p>After that, I kept learning, whether it was frontend or backend, new languages, and I made small projects every time I had free time after class. I also had the opportunity to become a teaching assistant in a developer course for second-year students, which was a great experience. I also worked on a <span className='font-medium text-primary'>GIS (Geographic Information Systems)</span> project application , which was an application that showed the location of activities on my campus using Google Map APIs.</p>
                             <p>Now, I am interested in creating web applications and I am looking for opportunities to work on new projects.</p> */}
-              <p>
+              {/* <p>
                 I am a fourth-year computer engineering student at Kasetsart
                 University with a strong passion for software development. I
                 have built several projects, including both frontend and backend
@@ -77,6 +77,28 @@ function About() {
                 be developed through dedication and hard work, and I am excited
                 to apply my skills and knowledge to develop innovative and
                 user-friendly software products.
+              </p> */}
+              <p>
+                {" "}
+                I am a fourth-year computer engineering student at Kasetsart
+                University with a strong passion for software development. I
+                have built several projects, including both frontend and backend
+                applications using programming languages and frameworks such as
+                Go, Node.js, React, and others. I believe that intelligence can
+                be developed through dedication and hard work, and I am excited
+                to apply my skills and knowledge to develop innovative and
+                user-friendly software products.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                In 2024, I completed a 7-month internship at Appsynth as a Full
+                Stack Developer. During this time, I worked on internal projects
+                using Next.js and Golang, contributing to an employee engagement
+                system and a time-tracking platform. I practiced Agile
+                methodologies, collaborated closely with my team, and led
+                knowledge-sharing sessions on topics like Feature Flags and
+                OWASP. This experience not only strengthened my technical skills
+                but also enhanced my teamwork and communication abilities.{" "}
               </p>
             </motion.div>
             <p className="text-xs font-normal text-justify "></p>

@@ -49,8 +49,16 @@ function Skills() {
             </motion.p>
           </div>
 
-          <div className="flex justify-around flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3">
             {logo.map((item, index) => {
+              const isExternal = item.externalLink;
+              let src = item.src;
+              if (!isExternal) {
+                const githubIconBase =
+                  "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/";
+                src = githubIconBase + item.src;
+              }
+
               return (
                 <a
                   className="rounded-full shadow-md bg-white p-2 hover:scale-105 transition"
@@ -66,7 +74,7 @@ function Skills() {
                     }}
                   >
                     <Image
-                      src={`https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/${item.src}`}
+                      src={src}
                       alt={item.title}
                       width={30}
                       height={30}
@@ -138,7 +146,7 @@ function Skills() {
             </div>
             <div className="bg-white rounded-md p-1">
               <h1 className="text-center font-medium">
-                Project Presentation During My Internship
+                Internship Project Showcase 🚀
               </h1>
             </div>
             {/* <Image
