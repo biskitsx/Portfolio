@@ -89,7 +89,7 @@ function Project() {
 
               return (
                 <motion.div
-                  key={project.id || index}
+                  key={index}
                   className={clsx("h-full", {
                     "sm:col-span-2 lg:col-span-2": isSpan,
                   })}
