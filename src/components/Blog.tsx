@@ -98,7 +98,7 @@ function Blog() {
 
         {blogDetail.length > initialBlogCount && (
           <motion.div
-            className="flex justify-center mt-6"
+            className="flex relative justify-center mt-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
