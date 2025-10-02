@@ -2,7 +2,7 @@ import { ProjectProps } from "@/components/SubProject";
 
 export const projects: ProjectProps[] = [
   {
-    title: "Pointhub",
+    title: "Pointhubbbb",
     image: "https://img2.pic.in.th/pic/Screenshot-2567-10-31-at-17.28.27.png",
     desc: 'A loyalty platform "Pointhub" that that engages staff in company activities through incentives, enabling them to redeem personalized items and track their redemptions.',
     tools: ["NextJS", "TailwindCSS", "Golang", "S3", "OneSignal", "Mailgun"],
