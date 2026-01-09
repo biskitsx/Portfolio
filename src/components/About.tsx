@@ -87,7 +87,7 @@ function About() {
               </p>
               <p>
                 {" "}
-                Today, I'm Software Engineer in Architecture team with hands-on experience in cloud-native systems, 
+                Today, I&apos;m Software Engineer in Architecture team with hands-on experience in cloud-native systems, 
                 GitOps, and microservices architecture. Experienced in migrating 
                 on-premise services to Kubernetes, refactoring monolithic systems 
                 into microservices, and implementing CI/CD pipelines for production 
