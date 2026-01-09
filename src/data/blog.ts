@@ -7,6 +7,13 @@ export const blogDetail = [
       "สวัสดีครับทุกคน 👋🏻 ผมชื่อกฤต เด็กวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยเกษตรศาสตร์ วันนี้ผมอยากมาแชร์ประสบการณ์ฝึกงานที่ Appsynth ในตำแหน่ง Full Stack Developer ระยะเวลา 6 + 1 เดือน",
   },
   {
+    title: "GitOps คืออะไร? ทำไมถึงช่วยให้ทำ DevOps ได้ง่ายขึ้นเยอะ",
+    link: "https://medium.com/gofive/%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81-argocd-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3-deployment-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%84%E0%B8%B4%E0%B8%94-gitops-247aad73a94e",
+    image: "/gitops.webp",
+    description:
+      "เคยไหมครับ เวลาจะ deploy ระบบขึ้น Kubernetes แล้วต้องคอยระวังไม่ให้ config เพี้ยนจากที่อยู่ใน Git … หรือบางทีเจอว่า dev แต่ละคนแก้ config กันคนละที่ จนสุดท้ายบน production นั้น config มันทับกันหรือพังไปหมด 😂 นี่แหละครับคือจุดที่ “GitOps” เข้ามาช่วยชีวิต",
+  },
+  {
     title: "ตอนที่ 1 เริ่มต้นเขียน API ด้วยภาษา Go (Fiber) 🔥",
     link: "https://medium.com/@kitsugarr/%E0%B8%9E%E0%B8%B2%E0%B8%97%E0%B8%B3-rest-api-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2-go-fiber-37cf95fde4ed",
     image: "/gomedium.webp",

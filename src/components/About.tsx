@@ -56,7 +56,7 @@ function About() {
               Get to know me 📍
             </motion.p>
             <motion.div
-              className="text-xs md:text-sm font-normal text-justify flex flex-col gap-2"
+              className="text-xs md:text-sm font-normal text-justify flex flex-col gap-6"
               initial={{ scale: 0.8, opacity: 0 }}
               whileInView={{
                 scale: 1,
@@ -64,30 +64,15 @@ function About() {
                 transition: { duration: 0.5 },
               }}
             >
-              {/* <p className=''>I started programming for the first time in the <span className='font-medium text-primary'>&quot;Computer and Programming&quot;</span> subject while I was in my first year of electrical engineering (2 years ago). As I continued to study this course, I discovered that I enjoyed solving problems and writing programs. This subject was a turning point in my life, and it made me switch from electrical engineering to <span className='font-medium text-primary'>computer engineering</span> at <span className='font-medium text-primary'>Kasetsart University</span></p> */}
-              {/* <p>When I first transferred, I had to work hard because I didn&apos;t have the same background as my friends. I started learning C and C++, which helped me learn about data structures and algorithms. Then, I discovered HTML, CSS, and JavaScript, which change my perspective and helped me understand how websites work.</p>
-                            <p>After that, I kept learning, whether it was frontend or backend, new languages, and I made small projects every time I had free time after class. I also had the opportunity to become a teaching assistant in a developer course for second-year students, which was a great experience. I also worked on a <span className='font-medium text-primary'>GIS (Geographic Information Systems)</span> project application , which was an application that showed the location of activities on my campus using Google Map APIs.</p>
-                            <p>Now, I am interested in creating web applications and I am looking for opportunities to work on new projects.</p> */}
-              {/* <p>
-                I am a fourth-year computer engineering student at Kasetsart
-                University with a strong passion for software development. I
-                have built several projects, including both frontend and backend
-                applications using programming languages and frameworks such as
-                Go, Node.js, React, and others. I believe that intelligence can
-                be developed through dedication and hard work, and I am excited
-                to apply my skills and knowledge to develop innovative and
-                user-friendly software products.
-              </p> */}
               <p>
                 {" "}
-                I am a fourth-year computer engineering student at Kasetsart
-                University with a strong passion for software development. I
-                have built several projects, including both frontend and backend
-                applications using programming languages and frameworks such as
-                Go, Node.js, React, and others. I believe that intelligence can
-                be developed through dedication and hard work, and I am excited
-                to apply my skills and knowledge to develop innovative and
-                user-friendly software products.{" "}
+                I graduated with a degree in Computer Engineering from Kasetsart
+                University, where I developed a strong passion for software development. 
+                Throughout my academic journey, I built several projects encompassing both 
+                frontend and backend development using technologies such as Go, Node.js, 
+                React, and more. I firmly believe that intelligence and expertise are 
+                cultivated through dedication and continuous learning, and I am eager to 
+                leverage my skills to create innovative, user-friendly software solutions.{" "}
               </p>{" "}
               <p>
                 {" "}
@@ -99,6 +84,14 @@ function About() {
                 knowledge-sharing sessions on topics like Feature Flags and
                 OWASP. This experience not only strengthened my technical skills
                 but also enhanced my teamwork and communication abilities.{" "}
+              </p>
+              <p>
+                {" "}
+                Today, I'm Software Engineer in Architecture team with hands-on experience in cloud-native systems, 
+                GitOps, and microservices architecture. Experienced in migrating 
+                on-premise services to Kubernetes, refactoring monolithic systems 
+                into microservices, and implementing CI/CD pipelines for production 
+                environments.Interested in building scalable and reliable systems.{" "}
               </p>
             </motion.div>
             <p className="text-xs font-normal text-justify "></p>

@@ -84,9 +84,29 @@ function Step() {
           </form>
         </dialog>
       </li>
-      <li className="step">
-        <p>Work 💪🏻</p>
-        <p className="font-semibold text-primary-focus">...</p>
+      <li className="step step-primary">
+        <button
+          className="hover:scale-105 transition-all"
+          onClick={() => (window as any).my_modal_5.showModal()}
+        >
+          <p>Full-Time 🦖</p>
+          <p className="font-semibold text-primary-focus">
+            Gofive Co., Ltd
+          </p>
+        </button>
+          <dialog id="my_modal_5" className="modal">
+            <form method="dialog" className="modal-box">
+              <h3 className="font-bold text-lg text-primary">
+                Full-Time (May 2025 - Now) 
+              </h3>
+              <p className="py-4">
+                Software Engineer at Gofive Co., Ltd
+              </p>
+            </form>
+            <form method="dialog" className="modal-backdrop">
+              <button>close</button>
+            </form>
+        </dialog>
       </li>
     </motion.ul>
   );
