@@ -60,7 +60,8 @@ function Homex() {
             <p className="text-lg font-normal ">
               Hello, I&apos;m Kit Suphakit. I&apos;m interested in{" "}
               <span className="text-secondary font-semibold  ">
-                Full-Stack Developer
+                Software Engineer / DevOps Engineer
+                
               </span>{" "}
               base in Thailand{" "}
               <FontAwesomeIcon
